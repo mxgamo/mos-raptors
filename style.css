@@ -1,0 +1,69 @@
+body {
+    background-image: url(images/dust.jpg);
+    color: white; 
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.top {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 40px;
+    border-top: 3px dashed yellow;
+    border-bottom: 3px dashed blue;
+    border-left: 3px dashed darkgreen;
+    border-right: 3px dashed crimson;
+    font-family: Impact;
+}
+
+.nav {
+    padding: 5px;
+    color:pink;
+    text-decoration: none;
+    font-size: 36px;
+    border: 2px dotted pink;
+    margin-bottom: 20px;
+    margin-top: -18px;
+}
+
+.nav:hover {
+    color: lightgreen;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.raptor{ 
+    flex: 1 0 24%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    margin-top: 20px;  
+}
+
+.rap-name {
+
+    font-size: 42px;
+    font-style: italic;
+    margin-top: 8px;
+}
+.rap-owner {
+    margin-top: -42px;
+    font-size: 32px;
+}
+
+.rap {
+    color: white;
+    text-decoration: none;
+    padding-left: 25px;
+}

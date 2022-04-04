@@ -9,29 +9,38 @@ body {
 .top {
     
     display: flex;
+    flex: 1 1 auto;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-size: 40px;
+    font-size: 36px;
     border-top: 3px dashed yellow;
     border-bottom: 3px dashed blue;
     border-left: 3px dashed darkgreen;
     border-right: 3px dashed crimson;
-    font-family: Impact;
+    font-family: Helvetica;
 }
 
 .nav {
     padding: 5px;
-    color:pink;
+    color: white;
     text-decoration: none;
-    font-size: 36px;
-    border: 2px dotted pink;
+    font-size: 24px;
+    border: 2px dotted white;
     margin-bottom: 20px;
     margin-top: -18px;
 }
 
 .nav:hover {
     color: lightgreen;
+}
+
+.footer {
+    display: flex;
+    background-color: black;
+    font-size: 24px;
+    align-items: baseline;
+    margin-top: 200px;
 }
 
 
@@ -66,4 +75,29 @@ body {
     color: white;
     text-decoration: none;
     padding-left: 25px;
+}
+
+.raptorhl {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    margin-top: 40px; 
+    height: 500px;
+    width: 500px;
+}
+
+.single {
+  
+    flex: 1 0 24%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    margin-top: 20px;  
+
+}
+
+.rap-own {
+    font-size: 32px;
+    margin-bottom: -10px;
 }

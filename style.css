@@ -3,39 +3,114 @@ body {
     color: white; 
     display: flex;
     flex-direction: column;
-    
+    display: flex;
+    justify-content: center; 
+    font-family: Arial; 
+}
+
+.box{ 
+    position:relative;
+    width:300px;
+    height: 450px;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    background: #18191A;
+    padding: 25px;
+
 }
 
 .top {
-    
     display: flex;
-    flex: 1 1 auto;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
     flex-direction: column;
-    font-size: 26px;
-    border-top: 3px dashed yellow;
-    border-bottom: 3px dashed blue;
-    border-left: 3px dashed darkgreen;
-    border-right: 3px dashed crimson;
-    border-radius: 3px;
-    font-family: Helvetica;
+    justify-content: center;
+    align-content:center;
+    border-right:5px dotted gold;
+    border-left: 5px dotted gold;
+    border-bottom:5px dotted #009999;
+    border-top: 5px dotted #009999 ;
+    
+}
+.top-green {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content:center;
+    border-bottom: 5px dotted #90ee90;
+    border-top: 5px dotted #90ee90;
+    border-left:5px dotted darkgreen;
+    border-right: 5px dotted darkgreen ;
+}
+.top-red {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content:center;
+    border-bottom: 5px dotted crimson;
+    border-top: 5px dotted crimson;
+    border-left:5px dotted coral;
+    border-right:5px dotted coral ;
+}
+.top-bs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content:center;
+    border-bottom: 5px dotted cyan;
+    border-top: 5px dotted cyan;
+    border-left:5px dotted blue;
+    border-right: 5px dotted blue ;
+}
+.top-xmas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content:center;
+    border-bottom: 5px dotted green;
+    border-top: 5px dotted green;
+    border-left:5px dotted red;
+    border-right: 5px dotted red ;
+}
+
+.top-tab{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content:center;
+    border-bottom: 5px dotted #9e02b8;
+    border-top: 5px dotted #9e02b8;
+    border-left:5px dotted #2e2afb;
+    border-right: 5px dotted #2e2afb ;
+ 
 }
 
 .nav {
     padding: 5px;
     color: white;
     text-decoration: none;
-    font-size: 14px;
-    border: 2px dotted white;
+    font-size: 20px;
     margin-bottom: 20px;
     margin-top: -18px;
+    text-align: center;
+    opacity: .7;
+
+}
+h1{
+    text-align: center;
+}
+.mainhead{
+   text-decoration: none;
+    color: white;
 }
 
+.mainhead:hover{
+    color:crimson
+}
+
+
 .nav:hover {
-    color: gold;
-    border: 2px dotted gold;
+    color: crimson;
+    opacity: 1;
 }
 
 .footer {
@@ -43,15 +118,24 @@ body {
     background-color: #18191A;
     font-size: 16px;
     align-items:flex-start;
+    margin-top: auto;
 }
 
 .info {
     background-color: transparent;
-    opacity: .9;
+    opacity: .7;
     text-align: center;   
-    color: gold;
-    font-size: 20px;
-}
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+    border: 1px inset lightpink;
+    justify-content: center;
+    align-content: center;
+    }
+
+    .info:hover{
+        opacity: 1;
+    }
 
 
 
@@ -75,9 +159,8 @@ body {
 }
 
 .raptor:hover {
-    border: 6px double lightpink;
-    border-radius: 5px;
-    
+    border: 6px outset gold;
+    border-radius: 5px;  
 }
 .raptor img{
     width: 200px;
@@ -117,8 +200,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;  
-    margin-top: 20px;  
-
+    justify-self: center;
+    margin-top: 20px; 
+  
 }
 
 .rap-own {

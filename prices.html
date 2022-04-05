@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prices & Owners</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style type="text/css">
+        .table-con{
+            padding: 0 10%;
+            margin: 40px auto 0;
+        }
+        h1{
+            margin-bottom: 40px;
+        }
+        .table{
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .table thead{
+            background-image: url(images/dust.jpg)
+        }
+        .table thead tr th{
+            font-size: 28px;
+            font-weight: 600;
+            letter-spacing: 0.35px;
+            color: white;
+            opacity: 1;
+            padding: 12px;
+            vertical-align: top;
+            border: 5px inset #2622fb;
+        }
+        .table tbody tr td{
+            font-size: 24px;
+            letter-spacing: 0.35px;
+            font-weight: normal;
+            color: white;
+            text-align: center;
+            border: 4px inset darkgray;
+            padding: 8px;
+           
+        }
+        
+        .player-prof{
+            color: white;
+            text-decoration: none;
+            line-height: 35px;
+            display: block;
+            background-color: darkgreen;
+            text-align: center;
+            opacity: .8;
+            font-weight: medium;
+            border: 1px solid grey;
+
+        }
+
+        .rap-prof{
+            color: white;
+            text-decoration: none;
+            line-height: 35px;
+            display: block;
+            background-color: darkmagenta;
+            text-align: center;
+            opacity: .8;
+            font-weight: medium;
+            border: 1px solid grey;
+        }
+
+        @media (max-width: 768px){
+            .table thead{
+                display: none;
+            }
+            .table, .table tbody, .table tr, .table td{
+               display:block;
+               width:100%; 
+            } 
+            .table tr{
+                margin-bottom: 15px;
+            }
+            .table tbody tr td{
+                text-align: right;
+                padding-left: 50%;
+                position: relative;
+            }
+            .table td:before{
+                content: attr(data-label);
+                position: absolute;
+                left: 0;
+                width: 50%;
+                padding-left: 15px;
+                font-weight: 14px;
+                text-align: left;
+            }
+        }
+
+
+
+
+    </style>
+
+</head>
+<body>
+
+
+    <div class="top-tab">
+        <h1>
+            <a href="index.html" class="mainhead">
+             Mohammad's Raptor NFT's - Price Table + Owner Contact
+            </a>
+         </h1> 
+        <a href="index.html" class="nav">The Official Collection</a>
+        <a href="google.com" class="nav">About Page</a>
+        </div>
+
+    <div class="table-con"></div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Raptor Mint Number</th>
+                <th>Current Owner</th>
+                <th>Current Name</th>
+                <th>Listed Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td data-label="Raptor Mint Number">#1</td>
+                <td data-label="Current Owner"><a href="https://farmrpg.com/#!/sendmessage.php?to=JLuna" class="player-prof">JLuna</a></td>
+                <td data-label="Current Name"><a href="rapone.html" class="rap-prof">Luna</a></td>
+                <td data-label="Listed Price">----</td>
+            </tr>
+            <tr>
+                <td data-label="Raptor Mint Number">#2</td>
+                <td data-label="Current Owner"><a href="https://farmrpg.com/#!/sendmessage.php?to=Magikarp" class="player-prof">Magikarp</a></td>
+                <td data-label="Current Name"><a href="raptwo.html" class="rap-prof">Shiny Gyrados</a></td>
+                <td data-label="Listed Price">----</td>
+            </tr>
+            <tr>
+                <td data-label="Raptor Mint Number">#3</td>
+                <td data-label="Current Owner"><a href="https://farmrpg.com/#!/sendmessage.php?to=RioX" class="player-prof">RioX</a></td>
+                <td data-label="Current Name"><a href="rapthree.html" class="rap-prof">Rio Bravo</a></td>
+                <td data-label="Listed Price">----</td>
+            </tr>
+            <tr>
+                <td data-label="Raptor Mint Number">#4</td>
+                <td data-label="Current Owner"><a href="https://farmrpg.com/#!/sendmessage.php?to=OtterOccultist" class="player-prof">OtterOccultist</a></td>
+                <td data-label="Current Name"><a href="rapfour.html" class="rap-prof">Litojello OG</a></td>
+                <td data-label="Listed Price">----</td>
+            </tr>
+            <tr>
+                <td data-label="Raptor Mint Number">#5</td>
+                <td data-label="Current Owner"><a href="https://farmrpg.com/#!/sendmessage.php?to=Strawberry930" class="player-prof">Strawberry930</a></td>
+                <td data-label="Current Name"><a href="rapfive.html" class="rap-prof">Duck</a></td>
+                <td data-label="Listed Price">----</td>
+            </tr>
+            <tr>
+                <td data-label="Raptor Mint Number">#6</td>
+                <td data-label="Current Owner"><a href="https://farmrpg.com/#!/sendmessage.php?to=Chloe" class="player-prof">Chloe</a></td>
+                <td data-label="Current Name"><a href="raprapsix.html" class="rap-prof">Sandy Claws</a></td>
+                <td data-label="Listed Price">----</td>
+            </tr>
+            <tr>
+                <td data-label="Raptor Mint Number">#7</td>
+                <td data-label="Current Owner"><a href="https://farmrpg.com/#!/sendmessage.php?to=waitasec" class="player-prof">waitasec</a></td>
+                <td data-label="Current Name"><a href="rapseven.html" class="rap-prof">Tomato</a></td>
+                <td data-label="Listed Price">----</td>
+            </tr>
+            <tr>
+                <td data-label="Raptor Mint Number">#8</td>
+                <td data-label="Current Owner"><a href="https://farmrpg.com/#!/sendmessage.php?to=Orville" class="player-prof">Orville</a></td>
+                <td data-label="Current Name"><a href="rapeight.html" class="rap-prof">Sandy Claws</a></td>
+                <td data-label="Listed Price">----</td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>
+<div class="footer">
+ <p>Mohammad's Raptors - The Official Collection</p>
+</div>
+</body>
+</html>

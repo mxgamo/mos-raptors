@@ -86,10 +86,9 @@ body {
 
 .nav {
     padding: 5px;
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    margin-bottom: 20px;
+    color: gold;
+    font-size: 24px;
+    margin-bottom: 10px;
     margin-top: -18px;
     text-align: center;
     opacity: .7;
@@ -97,6 +96,8 @@ body {
 }
 h1{
     text-align: center;
+    font-size: 38px;
+    font-weight: 800;
 }
 .mainhead{
    text-decoration: none;
@@ -128,7 +129,7 @@ h1{
     color: white;
     font-size: 18px;
     margin-top: 10px;
-    border: 1px inset lightpink;
+    border: 1px solid white;
     justify-content: center;
     align-content: center;
     }
@@ -136,7 +137,18 @@ h1{
     .info:hover{
         opacity: 1;
     }
-
+    .tab-info {
+        background-color: transparent;
+        opacity: .7;
+        text-align: center;   
+        color: white;
+        font-size: 18px;
+        margin-top: 10px;
+        padding: 8px;
+        border: 1px solid white;
+        justify-content: center;
+        align-content: center;
+        }
 
 
 
@@ -159,7 +171,7 @@ h1{
 }
 
 .raptor:hover {
-    border: 6px outset gold;
+    border: 5px outset gold;
     border-radius: 5px;  
 }
 .raptor img{

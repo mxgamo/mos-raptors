@@ -5,7 +5,7 @@ body {
     flex-direction: column;
     display: flex;
     justify-content: center; 
-    font-family: Arial; 
+    font-family: 'Courier New', sans-serif ;
 }
 
 .box{ 
@@ -24,94 +24,66 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content:center;
-    border-right:5px dotted gold;
-    border-left: 5px dotted gold;
-    border-bottom:5px dotted #009999;
-    border-top: 5px dotted #009999 ;
-    
+    align-content:center;  
 }
+/*   border:5px ridge #bec2cb;  */
 .top-green {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content:center;
-    border-bottom: 5px dotted #90ee90;
-    border-top: 5px dotted #90ee90;
-    border-left:5px dotted darkgreen;
-    border-right: 5px dotted darkgreen ;
+    margin-bottom: -30px;
 }
+
 .top-red {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content:center;
-    border-bottom: 5px dotted crimson;
-    border-top: 5px dotted crimson;
-    border-left:5px dotted coral;
-    border-right:5px dotted coral ;
+    margin-bottom: -30px;
 }
 .top-bs {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content:center;
-    border-bottom: 5px dotted cyan;
-    border-top: 5px dotted cyan;
-    border-left:5px dotted blue;
-    border-right: 5px dotted blue ;
+    margin-bottom: -30px;
 }
 .top-xmas {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content:center;
-    border-bottom: 5px dotted green;
-    border-top: 5px dotted green;
-    border-left:5px dotted red;
-    border-right: 5px dotted red ;
-}
+    margin-bottom: -30px;
 
-.top-tab{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content:center;
-    border-bottom: 5px dotted #9e02b8;
-    border-top: 5px dotted #9e02b8;
-    border-left:5px dotted #2e2afb;
-    border-right: 5px dotted #2e2afb ;
- 
 }
 
 .nav {
     padding: 5px;
-    color: magenta;
+    color: #d2b2f2;
     text-decoration: none;
     font-size: 18px;
     margin-bottom: 10px;
-    margin-top: -18px;
+    margin-top: -14px;
     text-align: center;
-    opacity: .7;
-
+  
 }
 h1{
     text-align: center;
     font-size: 40px;
     font-weight: 800;
-}
-.mainhead{
-   text-decoration: none;
-    color: white;
-}
+    font-family: 'Courier New', sans-serif ;
+  }
 
-.mainhead:hover{
-    color:crimson
+h2{
+    text-align: center;
+    margin-bottom: -10px;
+    font-size: 34;
 }
 
 
 .nav:hover {
-    color: crimson;
+    color: gold;
     opacity: 1;
 }
 
@@ -128,36 +100,52 @@ h1{
     opacity: .7;
     text-align: center;   
     color: white;
-    font-size: 18px;
-    margin-top: 10px;
-    border: 1px solid white;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: -13px;
     justify-content: center;
     align-content: center;
     }
 
-    .info:hover{
-        opacity: 1;
+
+    .drop {
+        background-color: transparent;
+        text-align: center;   
+        vertical-align: center;
+        color: red;
+        font-size: 20px;
+        margin-top: 7px;
+        margin-bottom: -10px;
+         border: 2px dashed red;
+        }
+
+    .drop-link{
+        text-decoration: none;
+        color: Red;
+        margin-top: 10px;
     }
+    .drop-link:hover{
+         color: gold;
+           
+        }
+    
+
     .tab-info {
         background-color: transparent;
-        opacity: .7;
         text-align: center;   
-        color: white;
+        color: silver;
         font-size: 18px;
-        margin-top: 10px;
+        margin-top: 15px;
+        margin-bottom: -15px;
         padding: 8px;
-        border: 1px solid white;
         justify-content: center;
         align-content: center;
         }
 
-
-
-
-
 .container {
     display: flex;
     justify-content: center;
+    align-content: center;
     flex-wrap: wrap;
 
 }
@@ -166,18 +154,51 @@ h1{
     flex: 1 0 24%;
     display: flex;
     flex-direction: column;
-    align-items: center;  
+    align-items: center;
+    justify-content:center;  
     margin-top: 20px;  
     padding-top: 10px;
 }
 
-.raptor:hover {
-    border: 5px outset gold;
+.raptor-unknown{
+        flex: 1 0 24%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;  
+        margin-top: 20px;  
+        padding-top: 10px;
+    }
+
+.red:hover {
+    border: 5px outset #ff2e2e;
     border-radius: 5px;  
 }
-.raptor img{
+.xmas:hover {
+    border-right: 5px outset lightgreen;
+    border-left: 5px outset lightgreen;
+    border-bottom: 5px outset crimson;
+    border-top: 5px outset crimson;
+    border-radius: 5px;  
+}
+.green:hover {
+    border: 5px outset lightgreen;
+    border-radius: 5px;  
+}
+.bs:hover {
+    border: 5px outset aqua;
+    border-radius: 5px;  
+}
+.raptor-unknown:hover {
+    border: 5px outset white;
+    border-radius: 5px;  
+}
+
+.raptor img, 
+.raptor-unknown img{
     width: 200px;
 }
+
 
 .rap-name {
 
@@ -190,6 +211,21 @@ h1{
     margin-top: -28px;
     font-size: 18px;
     text-align: center;
+}
+
+.rap-name-na {
+
+    font-size: 28px;
+    font-style: italic;
+    margin-top: 8px;
+    text-align: center;
+    color: #ff2e2e;
+}
+.rap-owner-na {
+    margin-top: -28px;
+    font-size: 18px;
+    text-align: center;
+    color: white;
 }
 
 .rap {
@@ -205,6 +241,8 @@ h1{
     align-items: center;  
     margin-top: 40px; 
     width: 300px;
+    padding:7px;
+   border: 8px ridge silver;
 }
 
 .single {
@@ -214,7 +252,7 @@ h1{
     flex-direction: column;
     align-items: center;  
     justify-self: center;
-    margin-top: 20px; 
+    margin-top: 20px;
   
 }
 

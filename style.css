@@ -91,7 +91,7 @@ h2{
     display: flex;
     background-color: #18191A;
     font-size: 16px;
-    align-items:flex-start;
+    align-items:flex-end;
     margin-top: auto;
 }
 
@@ -147,8 +147,29 @@ h2{
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
-
 }
+.container-abt {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.drop-info{
+    text-align: center;
+    margin-left:30px;
+    margin-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 4px ridge silver;
+    color: white;
+    font-size: 18px;
+}
+
+.bold{
+    font-weight: 700;
+}
+
 
 .raptor{ 
     flex: 1 0 24%;
